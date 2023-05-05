@@ -37,20 +37,27 @@
 
 <div class="container mx-auto py-15 text-center ">
     <h2 class="text-5xl font-bold py-10">Recent Posts</h2>
-    <p class="txt-gray-400 leading-6 px-10">
+    <p class="txt-gray-400 leading-6 px-10  mb-10">
         posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts 
     </p>
 
-    <div class="sm:grid grid-cols-4 w-4/5 mx-auto">
-        <div class="felx bg-yellow-400 text-gray-100 pt-10 mt-4">
+    <div class="sm:grid grid-cols-2 w-4/5 mx-auto">
+        <div class="felx bg-blue-400 text-gray-100 pt-10">
             <div class="block m-auto pt-4 pb-15 w-4/5">
-                <ul>
-                    <li></li>
+                <ul class="md:flex text-xs gap-2 ">
+                    <li class="bg-blue-700 text-gray-100 p-2 rounded inline-block my-1 md:my-0 hover:bg-gray-100 hover:text-blue-700 "><a href="/">OOP</a></li>
+                    <li class="bg-blue-700 text-gray-100 p-2 rounded inline-block my-1 md:my-0 hover:bg-gray-100 hover:text-blue-700 "><a href="/">PHP</a></li>
+                    <li class="bg-blue-700 text-gray-100 p-2 rounded inline-block my-1 md:my-0 hover:bg-gray-100 hover:text-blue-700 "><a href="/">Programming</a></li>
+                    <li class="bg-blue-700 text-gray-100 p-2 rounded inline-block my-1 md:my-0 hover:bg-gray-100 hover:text-blue-700 "><a href="/">Backend</a></li>
                 </ul>
                 <h3 class="txt-gray-100 text-l leading-6 py-10">
                     posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts posts 
                 </h3>
+                <a href="/" class="bg-transparent border-2 text-gray-100 py-4 px-5 rounded-lg font-bold uppercase text-l inline-block">Read More </a>
             </div>
+        </div>
+        <div class="flex">
+            <img class="object-cover" src="/assets/images/img1.jpg" alt=""/>
         </div>
 
     </div>
